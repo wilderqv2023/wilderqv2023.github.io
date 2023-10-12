@@ -384,7 +384,8 @@ button,
 [type=button],
 [type=reset],
 [type=submit] {
-  -webkit-appearance: button;
+  appearance: button;
+  -webkit-appearence: button;
 }
 button:not(:disabled),
 [type=button]:not(:disabled),
@@ -442,7 +443,8 @@ legend + * {
 
 [type=search] {
   outline-offset: -2px;
-  -webkit-appearance: textfield;
+  appearance: textfield;
+  -webkit-appearance:textfield ;
 }
 
 /* rtl:raw:
@@ -463,6 +465,7 @@ legend + * {
 
 ::file-selector-button {
   font: inherit;
+  appearance: button;
   -webkit-appearance: button;
 }
 
@@ -10980,9 +10983,9 @@ header.masthead .masthead-heading {
     margin-bottom: 2rem;
   }
   header.masthead .masthead-heading {
-    font-size: 4.5rem;
+    font-size: 3rem;
     font-weight: 700;
-    line-height: 4.5rem;
+    line-height: 4rem;
     margin-bottom: 4rem;
   }
 }
